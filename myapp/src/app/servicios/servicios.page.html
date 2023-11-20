@@ -1,0 +1,22 @@
+<ion-content class="fondo">
+  <ion-card color="warning">
+    <ion-card-header>
+      <img src="../../assets/icon/1698321781740.png" alt="">
+    </ion-card-header>
+  </ion-card>
+  
+  <ion-list>
+    <ion-item>
+      <ion-select placeholder="Select a Fruit">
+        <div slot="label">Eliga el servicio <ion-text color="danger">(Required)</ion-text></div>
+        <ion-select-option value="Cambiode_aceite">Cambio de aceite</ion-select-option>
+        <ion-select-option value="Revision_General">Revision general</ion-select-option>
+        <ion-select-option value="Revision_Luces">Revision de luces</ion-select-option>
+        <ion-select-option value="Limpieza"> Cambio de filtros </ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+  <ion-button  (click)="irAHorario()">elegir horario</ion-button> 
+
+  
+  </ion-content>

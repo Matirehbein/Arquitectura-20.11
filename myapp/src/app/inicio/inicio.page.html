@@ -1,0 +1,35 @@
+<ion-content class="fondo">
+
+  <div id="container">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Iniciar sesión</ion-card-title>
+      </ion-card-header>
+    </ion-card>
+
+    <ion-list>
+      <ion-item>
+        <ion-input labelPlacement="floating" value="">
+          <div slot="label">Nombre de usuario <ion-text></ion-text></div>
+        </ion-input>
+      </ion-item>
+    </ion-list>
+    <ion-list>
+      <ion-item>
+        <ion-input labelPlacement="floating" value="">
+          <div slot="label">Contraseña<ion-text ></ion-text></div>
+        </ion-input>
+      </ion-item>
+    </ion-list>
+    <ion-button  (click)="irACliente()">Iniciar Sesion Cliente</ion-button>
+    <ion-button  (click)="irACrearCuenta()">crear cuenta</ion-button>
+
+     <br>
+     <br>
+     <br> 
+     <ion-button  (click)="irAEmpleado()">Iniciar Sesion Administrador</ion-button>
+
+
+  </div>
+
+</ion-content>

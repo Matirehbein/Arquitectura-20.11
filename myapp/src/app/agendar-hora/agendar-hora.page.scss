@@ -1,0 +1,15 @@
+ion-content.fondo {
+    --background: url('../../assets/icon/fondo.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+  }
+  .calendario-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Alinea hacia la derecha */
+    justify-content: center;
+    height: 100vh; /* O ajusta la altura según sea necesario */
+    padding-right: 200px; /* Ajusta el espacio a la derecha según sea necesario */
+  }
+  
